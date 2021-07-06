@@ -70,6 +70,25 @@ img.second-image {
   font-size: 30px;
 }
 
+.recipe {
+  width: 50%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 40px gray;
+}
+.recipe img {
+  width: 100%;
+  border-radius: 5%;
+}
+
+.recipe-section-header {
+  text-align: center;
+}
+.recipe-section-header h2 {
+  font-size: 30px;
+}
 footer {
   background-color: darkslategray;
   padding-top: 1%;
