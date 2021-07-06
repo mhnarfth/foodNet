@@ -44,6 +44,32 @@ section div p {
   font-weight: 700;
 }
 
+.second-section {
+  background-image: url(images/second-background.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+img.second-image {
+  width: 45%;
+  padding-left: 35%;
+  padding-top: 6%;
+}
+
+.second-div {
+  text-align: left;
+  padding-left: 5%;
+  padding-top: 8%;
+}
+.second-div p {
+  padding-right: 200px;
+  padding-bottom: 40px;
+}
+
+.second-div h2 {
+  font-size: 30px;
+}
+
 footer {
   background-color: darkslategray;
   padding-top: 1%;
