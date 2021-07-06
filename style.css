@@ -43,3 +43,14 @@ section div p {
   color: white;
   font-weight: 700;
 }
+
+footer {
+  background-color: darkslategray;
+  padding-top: 1%;
+  padding-bottom: 3%;
+
+  text-align: center;
+}
+footer p {
+  color: white;
+}
