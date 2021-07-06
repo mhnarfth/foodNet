@@ -118,3 +118,41 @@ footer {
 footer p {
   color: white;
 }
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.nav-section {
+  background-color: black;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  background-color: #fffff;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+  padding: 0px 5%;
+}
+nav ul {
+  display: flex;
+}
+
+nav ul li a {
+  margin: 23px;
+  font-family: myriad pro regular;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.logo {
+  font-family: RoadTest;
+  color: white;
+  font-size: 22px;
+  font-weight: 700;
+}
