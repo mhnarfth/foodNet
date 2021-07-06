@@ -2,6 +2,44 @@ body {
   font-family: "Poppins", sans-serif;
   margin: 0;
 }
+
+.nav-section {
+  background-color: black;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  background-color: #fffff;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+  padding: 0px 5%;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+nav ul {
+  display: flex;
+}
+
+nav ul li a {
+  font-family: "Otomanopee One", sans-serif;
+  margin: 18px;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.logo {
+  font-family: "Monoton", cursive;
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+}
 .flexible-container {
   display: flex;
   margin-bottom: 90px;
@@ -37,7 +75,7 @@ section div p {
 .link-button {
   margin-top: 0;
   text-decoration: none;
-  background-image: linear-gradient(orange, salmon);
+  background-image: linear-gradient(orange, rgb(253, 40, 2));
   padding: 2% 5%;
   border-radius: 40px;
   color: white;
@@ -51,8 +89,8 @@ section div p {
 }
 
 img.second-image {
-  width: 45%;
-  padding-left: 35%;
+  width: 100%;
+  padding-left: 13%;
   padding-top: 6%;
 }
 
@@ -77,6 +115,10 @@ img.second-image {
   padding: 20px;
   border-radius: 10px;
   box-shadow: 10px 10px 40px gray;
+}
+.recipe-para {
+  padding-left: 80px;
+  padding-right: 80px;
 }
 .recipe img {
   width: 100%;
@@ -117,42 +159,4 @@ footer {
 }
 footer p {
   color: white;
-}
-
-ul {
-  list-style: none;
-}
-a {
-  text-decoration: none;
-}
-
-.nav-section {
-  background-color: black;
-}
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 100px;
-  background-color: #fffff;
-  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
-  padding: 0px 5%;
-}
-nav ul {
-  display: flex;
-}
-
-nav ul li a {
-  margin: 23px;
-  font-family: myriad pro regular;
-  color: white;
-  font-size: 15px;
-  font-weight: 700;
-}
-
-.logo {
-  font-family: RoadTest;
-  color: white;
-  font-size: 22px;
-  font-weight: 700;
 }
